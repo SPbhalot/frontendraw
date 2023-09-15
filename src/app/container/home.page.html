@@ -1,0 +1,8 @@
+<div >
+<canvas #canvas class="canvacss" 
+        (mousedown)="startDrawing($event)"
+        (mousemove)="draw($event)"
+        (mouseup)="stopDrawing()"
+></canvas>
+<app-draw></app-draw>
+</div>
